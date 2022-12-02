@@ -10,15 +10,15 @@ export class AuthController {
         // this.authService.test ();
     }
     @Post('sign-up')
-    signUp (@Body() dto:AuthDto) {
+    signUp(@Body() dto:AuthDto){
         // return "I want to sign up here";
         // console.log(req.body)
         console.log({
             dto
-        })
-        return this.authService.signUp(
+        });
+    return this.authService.signUp(dto);
 
-        )
+        // return this.authService.signUp();
     }
 
     @Post('login')
