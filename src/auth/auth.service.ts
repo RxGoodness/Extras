@@ -20,12 +20,14 @@ export class AuthService {
             email: dto.email,
             hash,
         },
-        select: {
-            id: true,
-            email: true,
-            createdAt: true
-        }
-     })
+        // select: {
+        //     id: true,
+        //     email: true,
+        //     createdAt: true
+        // }
+     });
+     
+     delete user.hash
      // Return the saved user
      return user
         // return {msg:"I signup here"};
