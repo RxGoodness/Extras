@@ -804,18 +804,18 @@
     tslib "2.4.0"
     uuid "8.3.2"
 
-"@nestjs/jwt@^8.0.0":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-8.0.1.tgz#e00f6810705a75d5680903241f4e07272e59e6d5"
-  integrity sha512-9WGfgngX8aclC/MC+CH35Ooo4iPVKc+7xLXaBV6o4ty8g2uZdPomry7cSdK/e6Lv623O/84WapThnPoAtW/jvA==
+"@nestjs/jwt@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-9.0.0.tgz#73e01338d2853a55033528b540cfd92c7996bae9"
+  integrity sha512-ZsXGY/wMYKzEhymw2+dxiwrHTRKIKrGszx6r2EjQqNLypdXMQu0QrujwZJ8k3+XQV4snmuJwwNakQoA2ILfq8w==
   dependencies:
     "@types/jsonwebtoken" "8.5.8"
     jsonwebtoken "8.5.1"
 
-"@nestjs/passport@^8.1.0":
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/passport/-/passport-8.2.2.tgz#32b3932b83740895f037eabaf812c44f5ec18b3a"
-  integrity sha512-Ytbn8j7WZ4INmEntOpdJY1isTgdQqZkx5ADz8zsZ5wAp0t8tc5GF/A+GlXlmn9/yRPwZHSbmHpv7Qt2EIiNnrw==
+"@nestjs/passport@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/passport/-/passport-9.0.0.tgz#0571bb08f8043456bc6df44cd4f59ca5f10c9b9f"
+  integrity sha512-Gnh8n1wzFPOLSS/94X1sUP4IRAoXTgG4odl7/AO5h+uwscEGXxJFercrZfqdAwkWhqkKWbsntM3j5mRy/6ZQDA==
 
 "@nestjs/platform-express@^8.0.0":
   version "8.4.7"
@@ -1118,10 +1118,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/passport-jwt@^3.0.6":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@types/passport-jwt/-/passport-jwt-3.0.7.tgz#ef8d8160dd9f4a3426aec031080cce9538b044a3"
-  integrity sha512-qRQ4qlww1Yhs3IaioDKrsDNmKy6gLDLgFsGwpCnc2YqWovO2Oxu9yCQdWHMJafQ7UIuOba4C4/TNXcGkQfEjlQ==
+"@types/passport-jwt@^3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@types/passport-jwt/-/passport-jwt-3.0.8.tgz#c8a95bf7d8f330f2560f1b3d07605e23ac01469a"
+  integrity sha512-VKJZDJUAHFhPHHYvxdqFcc5vlDht8Q2pL1/ePvKAgqRThDaCc84lSYOTQmnx3+JIkDlN+2KfhFhXIzlcVT+Pcw==
   dependencies:
     "@types/express" "*"
     "@types/jsonwebtoken" "*"
@@ -4410,13 +4410,14 @@ passport-strategy@1.x.x, passport-strategy@^1.0.0:
   resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
   integrity sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==
 
-passport@^0.5.2:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/passport/-/passport-0.5.3.tgz#e69b46c9bb3290660bc2b3299330d78710b198cc"
-  integrity sha512-gGc+70h4gGdBWNsR3FuV3byLDY6KBTJAIExGFXTpQaYfbbcHCBlRRKx7RBQSpqEqc5Hh2qVzRs7ssvSfOpkUEA==
+passport@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/passport/-/passport-0.6.0.tgz#e869579fab465b5c0b291e841e6cc95c005fac9d"
+  integrity sha512-0fe+p3ZnrWRW74fe8+SvCyf4a3Pb2/h7gFkQ8yTJpAO50gDzlfjZUZTO1k5Eg9kUct22OxHLqDZoKUWRHOh9ug==
   dependencies:
     passport-strategy "1.x.x"
     pause "0.0.1"
+    utils-merge "^1.0.1"
 
 path-exists@^4.0.0:
   version "4.0.0"
@@ -5400,7 +5401,7 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-utils-merge@1.0.1:
+utils-merge@1.0.1, utils-merge@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
