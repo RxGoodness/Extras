@@ -20,14 +20,20 @@ export class JwtStrategy extends PassportStrategy(
     super(
       {
         jwtFromRequest:
-          ExtractJwt.fromAuthHeaderAsBearerToken,
-        ignoreExpiration:
-          false,
+          ExtractJwt.fromAuthHeaderAsBearerToken(),
+        // ignoreExpiration:
+        //   false,
         secretOrKey:
           config.get(
             'JWT_SECRET',
           ),
       },
     );
+  }
+  async validate(payload:any){
+    console.log({
+      payload
+    })
+    return payload
   }
 }
